@@ -9,13 +9,14 @@
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="170dp"
-        android:layout_height="62dp"
+        android:layout_width="174dp"
+        android:layout_height="63dp"
         android:background="#6698FF"
+        android:hint="@string/greater_than_3_digit"
         android:inputType="number"
-        android:textSize="20sp"
 
         android:text=""
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.543"
