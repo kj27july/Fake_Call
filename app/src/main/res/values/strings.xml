@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Safe Call</string>
     <string name="call_btn">Call</string>
-    <string name="call_title">Caller\'s Name:</string>
+    <string name="call_title">Caller\'s Number:</string>
 </resources>

@@ -9,11 +9,13 @@
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="162dp"
-        android:layout_height="34dp"
-        android:text=""
-        android:inputType="number"
+        android:layout_width="170dp"
+        android:layout_height="62dp"
         android:background="#6698FF"
+        android:inputType="number"
+        android:textSize="20sp"
+
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.543"
@@ -27,26 +29,29 @@
         android:id="@+id/call_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/call_btn"
         android:background="#571B7E"
+        android:text="@string/call_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.379" />
+        app:layout_constraintVertical_bias="0.427" />
 
     <TextView
         android:id="@+id/name_title"
-        android:layout_width="113dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="44dp"
-        android:text="@string/call_title"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
         android:background="#6698FF"
+        android:gravity="center"
+        android:text="@string/call_title"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232" />
+        app:layout_constraintVertical_bias="0.228" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
